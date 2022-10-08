@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+        scroll-behavior: smooth;
+    }
+a{
+        scroll-behavior: smooth;
+}
+
+
+
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    
+}
+
+.logo img{
+    width: 100%;
+    height: 80px;
+}
+
+.navbar{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+p{
+    color: black;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.column2{
+    flex-basis: 40%;
+    min-width: 300px;
+}
+
+.column2 img{
+    max-width: 100%;
+    
+  
+
+}
+
+.column2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background: #563434;
+}
+.header{
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+header .row{
+    margin-top: 70px;
+}
+
+.categories{
+    margin: 70px 0;
+}
+
+.column3{
+    flex-basis: 15%;
+    min-width: 200px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px 0px rgba(0,0,0,0);
+    
+}
+
+.column3 img{
+    width: 100%;
+
+}
+
+.smallContainer{
+    margin: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.column4{
+    flex-basis: 21%;
+    padding: 10px;
+    min-width: 300px;
+    margin-bottom: 40px;
+    transition: transform 0.5s ;
+    box-shadow: 0 0 10px 0px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+.column4 img{
+    width: 100%;
+    height: 200px;
+    
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto 50px;
+    position: relative;
+    line-height: 50px;
+    color: #555;
+    padding-top: 30px;
+    font-weight: 600;
+}
+
+.title::after{
+    content: '';
+    background: #f42408;
+    width: 60px;
+    height: 5px;
+    border-radius: 5pc;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+h4{
+    color: #555;
+    font-weight: normal;
+}
+
+.column4 p{
+    font-size: 14px;
+}
+
+.rating .fa{
+    color: #ff523b;
+}
+
+.column4:hover{
+    transform: translateY(-5px);
+
+}
+
+.offers{
+    background: radial-gradient(#fff, #ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+.offer{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.column2 .offerImages{
+    padding: 50px;
+}
+
+small{
+    color: #555;
+}
+
+.testimonials{
+    padding-top: 50px;
+}
+.Head{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+.testimonials .column3{
+    text-align: center;
+    padding: 40px 20px;
+    flex-basis: 20%;
+    box-shadow: 0 0 10px 0px rgba(0,0,0,0.8);
+    cursor: pointer;
+    transition: transform 0.5s;
+    border-radius: 50px;
+}
+
+.testimonials .column3 img{
+    width: 100px;
+    margin-top: 20px ;
+    border-radius: 50%;
+}
+
+.testimonials .column3:hover{
+    transform: translateY(-10px);
+}
+
+.column3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+
+.testimonials .column3 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+
+.brands{
+    margin: 100px auto;
+    flex-basis: 20%;
+}
+
+.col5{
+    width: 160px;
+    min-width: 10%;
+    margin-bottom: 20px;
+
+}
+
+.col5 img{
+    width: 80%;
+    height: 70%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+
+.footer{
+    background: rgb(18, 12, 12);
+    color: #8a8a8a;
+    font-size: 16px;
+    padding: 30px 0 20px;
+
+
+}
+
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: white ;
+    margin-bottom: 20px;
+}
+.footer-Col1, .footer-Col2, .footer-Col3, .footer-Col4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-Col1{
+    flex-basis: 30%;
+}
+.footer-Col2{
+    flex: 1;
+    text-align: center;
+}
+
+
+
+.footer-Col3, .footer-Col4{
+    flex-basis: 12%;
+    text-align: center;
+
+}
+
+.footer li a{
+    color: grey;
+    text-align: left;
+}
+ul{
+    list-style-type: none;
+}
+
+.paymentLogos{
+    margin-top: 20px;
+
+}
+
+.paymentLogos img{
+    width: 90px;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.menu{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+.menu img{
+    width: 25px;
+    height: 25px;
+}
+
+
+.row2{
+    justify-content: space-between;
+    margin: 100px 50px 50px;
+}
+
+select{
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 5px;
+   
+}
+
+select:focus{
+    outline: none;
+}
+
+
+pages{
+    margin: 0 auto 10px;
+
+}
+.pages span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-bottom: 1cm;
+}
+
+.pages span:hover{
+    background: #ff523b;
+    color: white;
+}
+
+
+
+.badge{
+    width: 200px;
+}
+
+.badge img{
+    width: 300px;
+    padding-left: 100px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:800px){
+ nav ul{
+    position: absolute;
+    top: 7px;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+    margin-top: 90px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+
+ }
+ nav ul li{
+    display: block;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+ }
+
+ nav ul li a{
+    color: #fff;
+ }
+
+ .menu{
+    display: block;
+    cursor: pointer;
+ }
+}
+    
+
+@media only screen and (max-width:600px){
+.row{
+    text-align: center;
+}
+.column2, .column3, .column4{
+    flex-basis: 40%;
+}
+.brands{
+    flex-basis: 20%;
+}
+
+} 
